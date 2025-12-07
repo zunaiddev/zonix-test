@@ -1,0 +1,262 @@
+/**
+ * ZONIX Custom TradingView Styles
+ * 
+ * Custom styling for TradingView Charting Library to match ZONIX theme
+ */
+
+/* Chart Container */
+.tv-chart-container {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* Chart Background */
+.chart-container {
+  background: rgba(255, 255, 255, 0.02) !important;
+  backdrop-filter: blur(20px);
+}
+
+/* Toolbar */
+.chart-controls-bar {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Buttons */
+.tv-toolbar__button,
+.tv-button {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 8px !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  transition: all 0.2s ease;
+}
+
+.tv-toolbar__button:hover,
+.tv-button:hover {
+  background: rgba(251, 191, 36, 0.1) !important;
+  border-color: rgba(251, 191, 36, 0.3) !important;
+}
+
+.tv-toolbar__button.i-active,
+.tv-button.i-active {
+  background: rgba(251, 191, 36, 0.2) !important;
+  border-color: rgba(251, 191, 36, 0.5) !important;
+}
+
+/* Dropdowns */
+.tv-dropdown-behavior,
+.tv-popover {
+  background: rgba(31, 41, 55, 0.95) !important;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3) !important;
+}
+
+.tv-dropdown-behavior__item,
+.tv-popover__item {
+  color: rgba(255, 255, 255, 0.9) !important;
+  transition: all 0.2s ease;
+}
+
+.tv-dropdown-behavior__item:hover,
+.tv-popover__item:hover {
+  background: rgba(251, 191, 36, 0.1) !important;
+}
+
+/* Time Scale */
+.time-axis {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Price Scale */
+.price-axis {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Crosshair */
+.crosshair-label {
+  background: rgba(251, 191, 36, 0.9) !important;
+  color: #1F2937 !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+}
+
+/* Legend */
+.chart-markup-table {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(10px);
+  border-radius: 8px !important;
+  padding: 8px !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(251, 191, 36, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(251, 191, 36, 0.5);
+}
+
+/* Loading Spinner */
+.tv-spinner {
+  border-color: rgba(251, 191, 36, 0.3) !important;
+  border-top-color: #FBBF24 !important;
+}
+
+/* Context Menu */
+.tv-context-menu {
+  background: rgba(31, 41, 55, 0.95) !important;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3) !important;
+}
+
+.tv-context-menu__item {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.tv-context-menu__item:hover {
+  background: rgba(251, 191, 36, 0.1) !important;
+}
+
+/* Dialogs */
+.tv-dialog {
+  background: rgba(31, 41, 55, 0.98) !important;
+  backdrop-filter: blur(30px);
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4) !important;
+}
+
+.tv-dialog__title {
+  color: rgba(255, 255, 255, 0.95) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Input Fields */
+.tv-text-input,
+.tv-control-input {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 8px !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.tv-text-input:focus,
+.tv-control-input:focus {
+  border-color: rgba(251, 191, 36, 0.5) !important;
+  box-shadow: 0 0 0 3px rgba(251, 191, 36, 0.1) !important;
+}
+
+/* Tabs */
+.tv-tab {
+  color: rgba(255, 255, 255, 0.7) !important;
+  border-bottom: 2px solid transparent !important;
+}
+
+.tv-tab.i-active {
+  color: #FBBF24 !important;
+  border-bottom-color: #FBBF24 !important;
+}
+
+/* Tooltips */
+.tv-tooltip {
+  background: rgba(31, 41, 55, 0.95) !important;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 8px !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Watermark */
+.tv-watermark {
+  color: rgba(251, 191, 36, 0.15) !important;
+}
+
+/* Fullscreen */
+.tv-chart-container.tv-chart-container--fullscreen {
+  background: #1F2937 !important;
+}
+
+/* Theme-specific overrides */
+[data-theme="yellow"] .tv-button.i-active {
+  background: rgba(251, 191, 36, 0.2) !important;
+  border-color: rgba(251, 191, 36, 0.5) !important;
+}
+
+[data-theme="green"] .tv-button.i-active {
+  background: rgba(16, 185, 129, 0.2) !important;
+  border-color: rgba(16, 185, 129, 0.5) !important;
+}
+
+[data-theme="purple"] .tv-button.i-active {
+  background: rgba(167, 139, 250, 0.2) !important;
+  border-color: rgba(167, 139, 250, 0.5) !important;
+}
+
+[data-theme="navy"] .tv-button.i-active {
+  background: rgba(59, 130, 246, 0.2) !important;
+  border-color: rgba(59, 130, 246, 0.5) !important;
+}
+
+/* Animations */
+@keyframes tv-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tv-dropdown-behavior,
+.tv-popover,
+.tv-context-menu {
+  animation: tv-fade-in 0.2s ease;
+}
+
+/* Accessibility */
+.tv-button:focus-visible,
+.tv-text-input:focus-visible {
+  outline: 2px solid rgba(251, 191, 36, 0.5) !important;
+  outline-offset: 2px !important;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .tv-toolbar__button {
+    padding: 8px !important;
+  }
+  
+  .tv-dialog {
+    width: 95vw !important;
+    max-width: none !important;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .tv-toolbar,
+  .chart-controls-bar {
+    display: none !important;
+  }
+}
